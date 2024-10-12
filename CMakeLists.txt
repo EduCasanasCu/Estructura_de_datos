@@ -5,4 +5,6 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(Estructura_de_datos
         punteros.c
-        valor_y_referencia.c)
+        valor_y_referencia.c
+        struct.c
+        struct_y_arreglo.c)

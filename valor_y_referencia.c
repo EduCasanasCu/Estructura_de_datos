@@ -3,6 +3,7 @@
 // Declaracion de la funcion division.
 void division(int dividendo, int divisor, int *cociente, int *residuo);
 
+/*
 // Funcion principal del programa.
 int main(void) {
     int numero1, numero2, cocien, resi;
@@ -15,6 +16,7 @@ int main(void) {
 
     return 0;
 }
+*/
 
 // Definicion de la funcion division.
 void division(int dividendo, int divisor, int *cociente, int *residuo) {
