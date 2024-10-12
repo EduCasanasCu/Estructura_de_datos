@@ -1,14 +1,11 @@
 # ninja log v6
-1	47	1728673341708026888	build.ninja	847a5b89f8d50748
-0	70	1728673341715346271	CMakeFiles/Estructura_de_datos.dir/punteros.c.o	c04703b65345b26
-71	150	1728673341785548723	Estructura_de_datos	f14b6fa720e3335f
-1	31	1728674230713999985	CMakeFiles/Estructura_de_datos.dir/punteros.c.o	c04703b65345b26
-31	58	1728674230743743651	Estructura_de_datos	f14b6fa720e3335f
-2	31	1728674279520281133	CMakeFiles/Estructura_de_datos.dir/punteros.c.o	c04703b65345b26
-31	57	1728674279550128716	Estructura_de_datos	f14b6fa720e3335f
-2	30	1728674545320760386	CMakeFiles/Estructura_de_datos.dir/punteros.c.o	c04703b65345b26
-30	56	1728674545348689444	Estructura_de_datos	f14b6fa720e3335f
-2	136	1728675646951676115	CMakeFiles/Estructura_de_datos.dir/punteros.c.o	c04703b65345b26
-136	217	1728675647086006426	Estructura_de_datos	f14b6fa720e3335f
-1	30	1728675714940969007	CMakeFiles/Estructura_de_datos.dir/punteros.c.o	c04703b65345b26
-30	55	1728675714970215448	Estructura_de_datos	f14b6fa720e3335f
+1	47	1728684098792571083	build.ninja	847a5b89f8d50748
+1	24	1728683791763051970	CMakeFiles/Estructura_de_datos.dir/punteros.c.o	c04703b65345b26
+24	48	1728683791785884908	Estructura_de_datos	f14b6fa720e3335f
+1	24	1728684143251884245	CMakeFiles/Estructura_de_datos.dir/punteros.c.o	c04703b65345b26
+2	24	1728684143252413911	CMakeFiles/Estructura_de_datos.dir/valor_y_referencia.c.o	d2c5b4e15daac12f
+24	51	1728684143275302218	Estructura_de_datos	d2a5cda79d174028
+2	172	1728697887159571125	CMakeFiles/Estructura_de_datos.dir/valor_y_referencia.c.o	d2c5b4e15daac12f
+172	274	1728697887330180064	Estructura_de_datos	d2a5cda79d174028
+1	31	1728697913337959041	CMakeFiles/Estructura_de_datos.dir/valor_y_referencia.c.o	d2c5b4e15daac12f
+31	56	1728697913367608339	Estructura_de_datos	d2a5cda79d174028

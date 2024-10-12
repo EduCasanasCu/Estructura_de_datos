@@ -4,4 +4,5 @@ project(Estructura_de_datos C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(Estructura_de_datos
-        punteros.c)
+        punteros.c
+        valor_y_referencia.c)
