@@ -9,7 +9,7 @@ typedef struct {
     int edicion;
     float precio;
 }Libro;
-
+/*
 int main() {
     // creamos un arreglo de tipo 'Libro' que es la estructura.
     Libro array_libros[3];
@@ -32,7 +32,7 @@ int main() {
         scanf("%f",&array_libros[i].precio);
 
         fflush(stdin); // sirve para vaciar los valores que guarda el 'fgets'despues de ser usados.
-        
+
         printf("----------------------------------\n");
     }
     printf("La lista de libros almacenados en el vector es: ");
@@ -47,3 +47,4 @@ int main() {
     }
     return 0;
 }
+*/

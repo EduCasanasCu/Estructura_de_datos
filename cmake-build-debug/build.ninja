@@ -73,6 +73,18 @@ build CMakeFiles/Estructura_de_datos.dir/struct_y_arreglo.c.o: C_COMPILER__Estru
   OBJECT_DIR = CMakeFiles/Estructura_de_datos.dir
   OBJECT_FILE_DIR = CMakeFiles/Estructura_de_datos.dir
 
+build CMakeFiles/Estructura_de_datos.dir/listas_enlazadas.c.o: C_COMPILER__Estructura_de_datos_unscanned_Debug /Users/jorgecasanas/Desktop/Estructura_de_datos/listas_enlazadas.c || cmake_object_order_depends_target_Estructura_de_datos
+  DEP_FILE = CMakeFiles/Estructura_de_datos.dir/listas_enlazadas.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Estructura_de_datos.dir
+  OBJECT_FILE_DIR = CMakeFiles/Estructura_de_datos.dir
+
+build CMakeFiles/Estructura_de_datos.dir/Tareas/tareaG1.c.o: C_COMPILER__Estructura_de_datos_unscanned_Debug /Users/jorgecasanas/Desktop/Estructura_de_datos/Tareas/tareaG1.c || cmake_object_order_depends_target_Estructura_de_datos
+  DEP_FILE = CMakeFiles/Estructura_de_datos.dir/Tareas/tareaG1.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Estructura_de_datos.dir
+  OBJECT_FILE_DIR = CMakeFiles/Estructura_de_datos.dir/Tareas
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Estructura_de_datos
@@ -81,7 +93,7 @@ build CMakeFiles/Estructura_de_datos.dir/struct_y_arreglo.c.o: C_COMPILER__Estru
 #############################################
 # Link the executable Estructura_de_datos
 
-build Estructura_de_datos: C_EXECUTABLE_LINKER__Estructura_de_datos_Debug CMakeFiles/Estructura_de_datos.dir/punteros.c.o CMakeFiles/Estructura_de_datos.dir/valor_y_referencia.c.o CMakeFiles/Estructura_de_datos.dir/struct.c.o CMakeFiles/Estructura_de_datos.dir/struct_y_arreglo.c.o
+build Estructura_de_datos: C_EXECUTABLE_LINKER__Estructura_de_datos_Debug CMakeFiles/Estructura_de_datos.dir/punteros.c.o CMakeFiles/Estructura_de_datos.dir/valor_y_referencia.c.o CMakeFiles/Estructura_de_datos.dir/struct.c.o CMakeFiles/Estructura_de_datos.dir/struct_y_arreglo.c.o CMakeFiles/Estructura_de_datos.dir/listas_enlazadas.c.o CMakeFiles/Estructura_de_datos.dir/Tareas/tareaG1.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/Estructura_de_datos.dir
   POST_BUILD = :

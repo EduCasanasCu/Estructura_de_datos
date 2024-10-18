@@ -7,4 +7,6 @@ add_executable(Estructura_de_datos
         punteros.c
         valor_y_referencia.c
         struct.c
-        struct_y_arreglo.c)
+        struct_y_arreglo.c
+        listas_enlazadas.c
+        Tareas/tareaG1.c)

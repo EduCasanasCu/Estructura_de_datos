@@ -52,7 +52,9 @@
 				0,
 				1,
 				2,
-				3
+				3,
+				4,
+				5
 			]
 		}
 	],
@@ -88,7 +90,9 @@
 				0,
 				1,
 				2,
-				3
+				3,
+				4,
+				5
 			]
 		}
 	],
@@ -116,6 +120,18 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "struct_y_arreglo.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "listas_enlazadas.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Tareas/tareaG1.c",
 			"sourceGroupIndex" : 0
 		}
 	],
