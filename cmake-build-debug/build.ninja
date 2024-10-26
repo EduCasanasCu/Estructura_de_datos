@@ -61,8 +61,8 @@ build CMakeFiles/Estructura_de_datos.dir/Practica/valor_y_referencia.c.o: C_COMP
   OBJECT_DIR = CMakeFiles/Estructura_de_datos.dir
   OBJECT_FILE_DIR = CMakeFiles/Estructura_de_datos.dir/Practica
 
-build CMakeFiles/Estructura_de_datos.dir/Practica/struct.c.o: C_COMPILER__Estructura_de_datos_unscanned_Debug /Users/jorgecasanas/Desktop/Estructura_de_datos/Practica/struct.c || cmake_object_order_depends_target_Estructura_de_datos
-  DEP_FILE = CMakeFiles/Estructura_de_datos.dir/Practica/struct.c.o.d
+build CMakeFiles/Estructura_de_datos.dir/Practica/01_struct.c.o: C_COMPILER__Estructura_de_datos_unscanned_Debug /Users/jorgecasanas/Desktop/Estructura_de_datos/Practica/01_struct.c || cmake_object_order_depends_target_Estructura_de_datos
+  DEP_FILE = CMakeFiles/Estructura_de_datos.dir/Practica/01_struct.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Estructura_de_datos.dir
   OBJECT_FILE_DIR = CMakeFiles/Estructura_de_datos.dir/Practica
@@ -111,7 +111,7 @@ build CMakeFiles/Estructura_de_datos.dir/Practica/struct_01.c.o: C_COMPILER__Est
 #############################################
 # Link the executable Estructura_de_datos
 
-build Estructura_de_datos: C_EXECUTABLE_LINKER__Estructura_de_datos_Debug CMakeFiles/Estructura_de_datos.dir/Practica/punteros.c.o CMakeFiles/Estructura_de_datos.dir/Practica/valor_y_referencia.c.o CMakeFiles/Estructura_de_datos.dir/Practica/struct.c.o CMakeFiles/Estructura_de_datos.dir/Practica/struct_y_arreglo.c.o CMakeFiles/Estructura_de_datos.dir/Practica/listas_enlazadas.c.o CMakeFiles/Estructura_de_datos.dir/Tareas/tareaG1.c.o CMakeFiles/Estructura_de_datos.dir/Practica/practica.c.o CMakeFiles/Estructura_de_datos.dir/Talleres/TallerG1.c.o CMakeFiles/Estructura_de_datos.dir/Practica/struct_01.c.o
+build Estructura_de_datos: C_EXECUTABLE_LINKER__Estructura_de_datos_Debug CMakeFiles/Estructura_de_datos.dir/Practica/punteros.c.o CMakeFiles/Estructura_de_datos.dir/Practica/valor_y_referencia.c.o CMakeFiles/Estructura_de_datos.dir/Practica/01_struct.c.o CMakeFiles/Estructura_de_datos.dir/Practica/struct_y_arreglo.c.o CMakeFiles/Estructura_de_datos.dir/Practica/listas_enlazadas.c.o CMakeFiles/Estructura_de_datos.dir/Tareas/tareaG1.c.o CMakeFiles/Estructura_de_datos.dir/Practica/practica.c.o CMakeFiles/Estructura_de_datos.dir/Talleres/TallerG1.c.o CMakeFiles/Estructura_de_datos.dir/Practica/struct_01.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/Estructura_de_datos.dir
   POST_BUILD = :

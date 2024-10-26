@@ -1,4 +1,4 @@
-# ESTRUCTURA DE DATOS EN EL LENGUAJE C
+# ESTRUCTURA DE DATOS EN C.
 ## 1) STRUCT.
 ### Forma de una estructura.
 ```c
@@ -17,8 +17,196 @@ struct atleta {
     char apellido[50];
     int edad;
     float altura;
-}atleta1,atleta2,atleta3;
+}atleta1,atleta2,atleta3; // variables declaradas.
 ```
+#### Forma 2
+```c
+struct atleta {
+    int cedula;
+    char apellido[50];
+    int edad;
+    float altura;
+};
+int main() {
+    struct atleta atleta1,atleta2,atleta3; // variables declaradas.
+    return 0;
+}
+```
+### Asignación de valores a la estructura y mostrar por pantalla. 
+#### Forma 1.
+```c
+struct atleta {
+    int cedula;
+    char apellido[50];
+    int edad;
+    float altura;
+}atleta1={923004511,"casanas",31,1.59};// asignacion de valores
+
+int main() {
+    printf("Los datos del atleta1 son: \n");
+    printf("Cedula: %d\n",atleta1.cedula);
+    printf("Apellido: %s\n",atleta1.apellido);
+    printf("Edad: %d\n",atleta1.edad);
+    printf("Altura: %.2f\n",atleta1.altura);
+    return 0;
+}
+```
+#### Forma 2.
+```c
+struct atleta {
+    int cedula;
+    char apellido[50];
+    int edad;
+    float altura;
+};
+int main() {
+    struct atleta atleta2 = {20002341,"cuenca",24,1.70};// asignacion de valores
+    
+    printf("Los datos del atleta2 son: \n");
+    printf("Cedula: %d\n",atleta2.cedula);
+    printf("Apellido: %s\n",atleta2.apellido);
+    printf("Edad: %d\n",atleta2.edad);
+    printf("Altura: %.2f\n",atleta2.altura);
+    return 0;
+}
+```
+>Esto no se puede hacer al momento de asignar valores:
+```c
+struct atleta {
+    int cedula;
+    char apellido[50];
+    int edad;
+    float altura;
+};
+int main() {
+    struct atleta atleta2;
+        atleta2 = {20002341,"cuenca",24,1.70};// asignacion de valores incorrecta
+    return 0;
+}
+```
+### Tamaño en bytes de la estructura=> **sizeof()**.
+```c
+struct atleta {
+    int cedula;
+    char apellido[50];
+    int edad;
+    float altura;
+};
+int main() {
+    struct atleta atleta1 = {25002341,"casanas",34,1.90};
+    printf("El tamaño de la estructura es: %d", sizeof(atleta1));
+    return 0;
+}
+```
+### Modificar valores de la estructura.
+```c
+#include <stdio.h>
+#include <string.h>
+struct atleta {
+    int cedula;
+    char apellido[50];
+    int edad;
+    float altura;
+};
+int main() {
+    struct atleta atleta1 = {25002341,"casanas",34,1.90};
+
+    // modificar los valores de la estructura
+    atleta1.cedula = 12345678;
+    strcpy(atleta1.apellido,"Casas");
+
+    printf("Los datos del atleta 1 son: \n");
+    printf("Cedula: %d\n",atleta1.cedula);
+    printf("Apellido: %s\n",atleta1.apellido);
+    printf("Edad: %d\n",atleta1.edad);
+    printf("Altura: %.2f\n",atleta1.altura);
+    return 0;
+}
+```
+### Asignar una estructura a otra.
+```c
+#include <stdio.h>
+#include <string.h>
+struct atleta {
+    int cedula;
+    char apellido[50];
+    int edad;
+    float altura;
+};
+int main() {
+    struct atleta atleta1 = {25002341,"casanas",34,1.90};
+    struct atleta atleta2 = {35002341,"cuenca",24,1.60};
+
+    // modificar los valores de la estructura
+    atleta1.cedula = 12345678;
+    strcpy(atleta1.apellido,"Casas");
+    
+    // asignar una estructura a otra
+    atleta1 = atleta2; // los valores del atleta 2 se asignan a atleta 1.
+
+    printf("Los datos del atleta 1 son: \n");
+    printf("Cedula: %d\n",atleta1.cedula);
+    printf("Apellido: %s\n",atleta1.apellido);
+    printf("Edad: %d\n",atleta1.edad);
+    printf("Altura: %.2f\n",atleta1.altura);
+    return 0;
+}
+```
+> **Algo interesante..** es que despues de la asignacion de una estructura a otra (atleta1=atleta2), si se modifica la estructura 'atleta2.apellido' esta no se mostrara al momento de imprimir los datos del 'atleta1' pese a ser iguales a 'atleta2', y es porque luego de la asignacion de la una estructura a la otra estamos creando una nueva copia de esta modificacion, por lo tanto al imprimir 'atleta1' se muestra los valores del 'atleta2' que tenia hasta el momento de la asignacion de estructuras.
+```c
+#include <stdio.h>
+#include <string.h>
+struct atleta {
+    int cedula;
+    char apellido[50];
+    int edad;
+    float altura;
+};
+int main() {
+    struct atleta atleta1 = {25002341,"casanas",34,1.90};
+    struct atleta atleta2 = {35002341,"cuenca",24,1.60};
+
+    // modificar los valores de la estructura
+    atleta1.cedula = 12345678;
+    strcpy(atleta1.apellido,"Casas");
+
+    // asignar una estructura a otra
+    atleta1 = atleta2; // los valores del atleta 2 se asignan a atleta 1.
+
+    // modificamos la variable apellido
+    strcpy(atleta2.apellido,"Cascuenca");// estamos creando una nueva copia.
+
+
+    printf("Los datos del atleta 1 son: \n");
+    printf("Cedula: %d\n",atleta1.cedula);
+    printf("Apellido: %s\n",atleta1.apellido); // como atleta1=atleta2 es de esperarse que se muestre el "Cascuenca"
+                                               // pero no se muestra porque la asignacion de la una estructura a otra
+                                               // ocurre antes de que se vuelva a modificar el apellido y esa variable
+                                               // que contiene "Cascuenca" esta en una nueva copia de esa variable.
+    printf("Edad: %d\n",atleta1.edad);
+    printf("Altura: %.2f\n",atleta1.altura);
+    return 0;
+}
+```
+
+
+```c
+
+```
+
+
+```c
+
+```
+
+
+```c
+
+```
+
+
+
+
 
 
 ```c
