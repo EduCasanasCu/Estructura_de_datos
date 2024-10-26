@@ -1,7 +1,27 @@
 # ESTRUCTURA DE DATOS EN EL LENGUAJE C
 ## 1) STRUCT.
+### Forma de una estructura.
 ```c
-// Created by jorge casanas on 11/10/24.
+struct atleta {
+    int cedula;
+    char apellido[50];
+    int edad;
+    float altura;
+};
+```
+### Declarar variables de tipo estructura.
+#### Forma 1
+```c
+struct atleta {
+    int cedula;
+    char apellido[50];
+    int edad;
+    float altura;
+}atleta1,atleta2,atleta3;
+```
+
+
+```c
 #include <stdio.h>
 #include <string.h>
 // Definimos la estructura

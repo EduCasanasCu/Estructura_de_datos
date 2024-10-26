@@ -20,7 +20,7 @@ int ValidarOpcion(int opcion);
 int ContadorPalabras(char frase[100]);
 void ReemplazarCaracter(char a, char b, char frase[100]);
 void InvertirFrase(char frase[100]);
-
+/*
 int main(){
     int opcion;
 
@@ -60,7 +60,7 @@ int main(){
 
     return 0;
 }
-
+*/
 void MostrarMenu() {
     printf("*****************************************\n");
     printf("1)Contar las palabras que tiene la frase.\n"

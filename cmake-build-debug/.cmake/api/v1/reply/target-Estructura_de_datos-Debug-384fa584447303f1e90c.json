@@ -54,7 +54,10 @@
 				2,
 				3,
 				4,
-				5
+				5,
+				6,
+				7,
+				8
 			]
 		}
 	],
@@ -92,7 +95,10 @@
 				2,
 				3,
 				4,
-				5
+				5,
+				6,
+				7,
+				8
 			]
 		}
 	],
@@ -101,37 +107,55 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "punteros.c",
+			"path" : "Practica/punteros.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "valor_y_referencia.c",
+			"path" : "Practica/valor_y_referencia.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "struct.c",
+			"path" : "Practica/struct.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "struct_y_arreglo.c",
+			"path" : "Practica/struct_y_arreglo.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "listas_enlazadas.c",
+			"path" : "Practica/listas_enlazadas.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "Tareas/tareaG1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Practica/practica.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Talleres/TallerG1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Practica/struct_01.c",
 			"sourceGroupIndex" : 0
 		}
 	],

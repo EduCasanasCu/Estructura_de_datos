@@ -1,13 +1,16 @@
 # ninja log v6
-1	26	1729220191058341747	CMakeFiles/Estructura_de_datos.dir/Tareas/tareaG1.c.o	f5aae02b3677d2de
-2	158	1729112730671102078	CMakeFiles/Estructura_de_datos.dir/struct_y_arreglo.c.o	9a45a2907264e703
+1	164	1729478310847600531	CMakeFiles/Estructura_de_datos.dir/Practica/valor_y_referencia.c.o	4649e1d6b4e67e84
 1	24	1728684143251884245	CMakeFiles/Estructura_de_datos.dir/punteros.c.o	c04703b65345b26
-3	160	1729112730671925583	CMakeFiles/Estructura_de_datos.dir/listas_enlazadas.c.o	79f8ca002e9a59e6
+2	165	1729478310847933740	CMakeFiles/Estructura_de_datos.dir/Practica/struct_y_arreglo.c.o	fe68996bd3ed4106
+2	158	1729112730671102078	CMakeFiles/Estructura_de_datos.dir/struct_y_arreglo.c.o	9a45a2907264e703
+2	165	1729478310848192699	CMakeFiles/Estructura_de_datos.dir/Tareas/tareaG1.c.o	f5aae02b3677d2de
+1	47	1729742997792702850	build.ninja	847a5b89f8d50748
 1	128	1728744007137957779	CMakeFiles/Estructura_de_datos.dir/struct.c.o	e3eb70cd262a324
-26	51	1729220191083818967	Estructura_de_datos	e6040227e3776c97
+3	160	1729112730671925583	CMakeFiles/Estructura_de_datos.dir/listas_enlazadas.c.o	79f8ca002e9a59e6
+2	166	1729478310848072782	CMakeFiles/Estructura_de_datos.dir/Practica/listas_enlazadas.c.o	4254e2de326248da
 1	79	1728706486445766774	CMakeFiles/Estructura_de_datos.dir/valor_y_referencia.c.o	d2c5b4e15daac12f
-1	47	1729108577939833105	build.ninja	847a5b89f8d50748
-2	32	1729220213591773060	CMakeFiles/Estructura_de_datos.dir/Tareas/tareaG1.c.o	f5aae02b3677d2de
-33	58	1729220213621860877	Estructura_de_datos	e6040227e3776c97
-0	25	1729220228935755953	CMakeFiles/Estructura_de_datos.dir/Tareas/tareaG1.c.o	f5aae02b3677d2de
-25	51	1729220228960701601	Estructura_de_datos	e6040227e3776c97
+1	162	1729478310847067780	CMakeFiles/Estructura_de_datos.dir/Practica/punteros.c.o	d84845080fe4530a
+4	182	1729648634273199739	CMakeFiles/Estructura_de_datos.dir/Talleres/TallerG1.c.o	3225343a3e12bbcf
+1	162	1729478310847741948	CMakeFiles/Estructura_de_datos.dir/Practica/struct.c.o	4da20cd829ecacf3
+182	289	1729648634451400526	Estructura_de_datos	5b3edce6200800df
+1	74	1729606477288222622	CMakeFiles/Estructura_de_datos.dir/Practica/practica.c.o	49db2842ee7f7af1
